@@ -42,13 +42,18 @@ After setup, show me how to create my first mockup.
 
 ## Examples
 
-| Expand (default) | Aurora | Mesh |
-|:---:|:---:|:---:|
-| ![Expand](examples/output/orbit-expand.png) | ![Aurora](examples/output/orbit-aurora.png) | ![Mesh](examples/output/orbit-mesh.png) |
-
-| Glass | Sunset | Ocean |
-|:---:|:---:|:---:|
-| ![Glass](examples/output/orbit-glass.png) | ![Sunset](examples/output/orbit-sunset.png) | ![Ocean](examples/output/orbit-ocean.png) |
+<table>
+  <tr>
+    <td align="center"><strong>Expand (default)</strong><br><img src="examples/output/orbit-expand.png" width="280"></td>
+    <td align="center"><strong>Aurora</strong><br><img src="examples/output/orbit-aurora.png" width="280"></td>
+    <td align="center"><strong>Mesh</strong><br><img src="examples/output/orbit-mesh.png" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Glass</strong><br><img src="examples/output/orbit-glass.png" width="280"></td>
+    <td align="center"><strong>Sunset</strong><br><img src="examples/output/orbit-sunset.png" width="280"></td>
+    <td align="center"><strong>Ocean</strong><br><img src="examples/output/orbit-ocean.png" width="280"></td>
+  </tr>
+</table>
 
 ---
 
@@ -160,13 +165,16 @@ python main.py batch screenshots/ -s mesh -c sunset
 
 ## More Examples
 
-| Apple Music | KakaoBank |
-|:---:|:---:|
-| ![Apple Music](examples/output/apple-music-expand.png) | ![KakaoBank](examples/output/kakaobank-expand.png) |
-
-| Open | Sunlitt |
-|:---:|:---:|
-| ![Open](examples/output/open-expand.png) | ![Sunlitt](examples/output/sunlitt-expand.png) |
+<table>
+  <tr>
+    <td align="center"><strong>Apple Music</strong><br><img src="examples/output/apple-music-expand.png" width="400"></td>
+    <td align="center"><strong>KakaoBank</strong><br><img src="examples/output/kakaobank-expand.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Open</strong><br><img src="examples/output/open-expand.png" width="400"></td>
+    <td align="center"><strong>Sunlitt</strong><br><img src="examples/output/sunlitt-expand.png" width="400"></td>
+  </tr>
+</table>
 
 ---
 

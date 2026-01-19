@@ -108,6 +108,23 @@ python main.py screenshot app.png -s aurora -p story
 python main.py batch screenshots/ -s mesh -c sunset
 ```
 
+## Claude Code Setup
+
+Copy and paste this prompt into Claude Code to get started:
+
+```
+I want to use the screenshot mockup generator in this project. Please:
+
+1. Install the Python dependencies by running: pip install -r requirements.txt
+2. Verify the setup works by checking that the required modules can be imported
+3. Show me how to create my first mockup
+
+The main commands are:
+- python main.py screenshot <path> - Create a single mockup
+- python main.py batch <folder> - Process all screenshots in a folder
+- python main.py platforms - List available platform presets
+```
+
 ---
 
 Built for the "build in public" community.

@@ -7,7 +7,35 @@ Turn app screenshots into professional social media mockups with realistic iPhon
 Copy and paste this into Claude Code:
 
 ```
-Clone https://github.com/JustinPerea/screenshot-to-ios-mockup.git and set it up. Install the dependencies with pip install -r requirements.txt, verify the imports work, then show me how to create my first mockup.
+Clone https://github.com/JustinPerea/screenshot-to-ios-mockup.git and set it up for me.
+
+1. Install dependencies: pip install -r requirements.txt
+2. Verify the imports work by testing the modules
+
+This tool creates professional iPhone mockups from screenshots for social media. Here's what I need to know:
+
+COMMANDS:
+- python main.py screenshot <image> - Create a single mockup
+- python main.py batch <folder> - Process all screenshots in a folder
+- python main.py styles - List background styles
+- python main.py platforms - List platform presets
+
+BACKGROUND STYLES (-s flag):
+- expand: Blurred screenshot fill (default)
+- aurora: Northern lights effect
+- mesh: Smooth gradient
+- glass: Frosted glass
+- sunset/ocean: Color gradients
+
+PLATFORM PRESETS (-p flag):
+- twitter: 1200x1500, 4:5 ratio (default)
+- instagram: 1080x1350, 4:5 ratio
+- story: 1080x1920, 9:16 ratio
+- square: 1200x1200, 1:1 ratio
+
+OUTPUT: Mockups save to ./output/ folder by default
+
+After setup, show me how to create my first mockup.
 ```
 
 ---

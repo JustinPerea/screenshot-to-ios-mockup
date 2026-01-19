@@ -40,6 +40,18 @@ After setup, show me how to create my first mockup.
 
 ---
 
+## Examples
+
+| Expand (default) | Aurora |
+|:---:|:---:|
+| ![Expand](examples/output/expand.png) | ![Aurora](examples/output/aurora.png) |
+
+| Mesh | Glass |
+|:---:|:---:|
+| ![Mesh](examples/output/mesh.png) | ![Glass](examples/output/glass.png) |
+
+---
+
 ## Features
 
 - **Realistic iPhone 17 Pro Max frame** - Procedurally generated with Dynamic Island, side buttons, and titanium finish

@@ -43,6 +43,7 @@ output/
 *.jpg
 *.jpeg
 !src/mockup/assets/**/*.png
+!examples/**/*.png
 
 # Data
 *.db

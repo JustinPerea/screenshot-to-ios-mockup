@@ -28,7 +28,8 @@ BACKGROUND STYLES (-s flag):
 - sunset/ocean: Color gradients
 
 PLATFORM PRESETS (-p flag):
-- twitter: 1200x1500, 4:5 ratio (default)
+- twitter: 1200x1500, 4:5 ratio (default, single image)
+- twitter4: 1200x1200, 1:1 ratio (for 4-image grid posts)
 - instagram: 1080x1350, 4:5 ratio
 - story: 1080x1920, 9:16 ratio
 - square: 1200x1200, 1:1 ratio

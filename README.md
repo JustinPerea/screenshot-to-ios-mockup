@@ -158,4 +158,16 @@ python main.py screenshot app.png -s aurora -p story
 python main.py batch screenshots/ -s mesh -c sunset
 ```
 
+## More Examples
+
+| Apple Music | KakaoBank |
+|:---:|:---:|
+| ![Apple Music](examples/output/apple-music-expand.png) | ![KakaoBank](examples/output/kakaobank-aurora.png) |
+
+| Open | Sunlitt |
+|:---:|:---:|
+| ![Open](examples/output/open-mesh.png) | ![Sunlitt](examples/output/sunlitt-glass.png) |
+
+---
+
 Built for the "build in public" community.

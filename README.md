@@ -108,13 +108,86 @@ python main.py screenshot image.png -s ocean
 
 ---
 
+### Soft
+Minimal pastel background with a subtle corner accent. Clean and understated.
+
+<img src="examples/output/orbit-soft.png" width="400">
+
+```bash
+python main.py screenshot image.png -s soft
+```
+
+---
+
 ## Features
 
 - **Realistic iPhone 17 Pro Max frame** - Procedurally generated with Dynamic Island, side buttons, and titanium finish
-- **Multiple background styles** - `expand`, `mesh`, `aurora`, `glass`, `sunset`, `ocean`, and more
+- **Multiple background styles** - `expand`, `mesh`, `aurora`, `glass`, `sunset`, `ocean`, `soft`
 - **Platform presets** - Optimized sizes for Twitter, Instagram, Stories, etc.
 - **Color extraction** - Auto-extracts colors from screenshots or use preset palettes
 - **Video support** - Create video mockups from screen recordings (requires ffmpeg)
+
+## Requirements
+
+- Python 3.8+
+- Pillow (image processing)
+- colorthief (color extraction)
+- ffmpeg (optional, for video mockups)
+
+## How Color Extraction Works
+
+The tool automatically extracts dominant colors from your screenshot using ColorThief. These colors are then used to generate backgrounds that complement your app's design.
+
+```bash
+# Auto-extract colors (default)
+python main.py screenshot app.png
+
+# Override with preset palette
+python main.py screenshot app.png -c sunset
+
+# Override with custom hex colors
+python main.py screenshot app.png -c "#FF5733,#3498DB,#2ECC71"
+```
+
+Available palettes: `vibrant`, `pastel`, `dark`, `warm`, `cool`, `sunset`, `ocean`, `forest`, `berry`, `monochrome`
+
+## Python API
+
+Use the mockup generator programmatically in your own code:
+
+```python
+from src.mockup.composer import MockupComposer
+
+# Create a composer with platform preset
+composer = MockupComposer(platform="twitter")
+
+# Generate a mockup
+mockup = composer.create_mockup(
+    screenshot_path="screenshot.png",
+    background_style="expand"
+)
+
+# Save the result
+composer.save(mockup, "output/mockup.png")
+```
+
+Advanced options:
+
+```python
+# Custom colors
+mockup = composer.create_mockup(
+    screenshot_path="screenshot.png",
+    background_style="mesh",
+    custom_colors=[(255, 100, 50), (50, 100, 255), (100, 255, 50)]
+)
+
+# Adjust device position and scale
+mockup = composer.create_mockup(
+    screenshot_path="screenshot.png",
+    device_scale=0.75,
+    device_position=(0.5, 0.5)  # centered
+)
+```
 
 ## Quick Start
 
@@ -127,23 +200,6 @@ python main.py screenshot path/to/screenshot.png
 
 # Process a folder of screenshots
 python main.py batch path/to/folder/
-```
-
-## Background Styles
-
-| Style | Description |
-|-------|-------------|
-| `expand` | Blurred screenshot fill (like TV news) - **default** |
-| `mesh` | Smooth multi-point gradient |
-| `aurora` | Northern lights vertical bands |
-| `glass` | Frosted glass effect |
-| `sunset` | Warm orange to purple gradient |
-| `ocean` | Cool blue to teal gradient |
-| `soft` | Minimal pastel background |
-
-```bash
-python main.py screenshot image.png -s mesh
-python main.py screenshot image.png -s aurora
 ```
 
 ## Platform Presets

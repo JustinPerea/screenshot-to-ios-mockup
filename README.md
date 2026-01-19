@@ -40,20 +40,71 @@ After setup, show me how to create my first mockup.
 
 ---
 
-## Examples
+## Background Styles
 
-<table>
-  <tr>
-    <td align="center"><strong>Expand (default)</strong><br><img src="examples/output/orbit-expand.png" width="280"></td>
-    <td align="center"><strong>Aurora</strong><br><img src="examples/output/orbit-aurora.png" width="280"></td>
-    <td align="center"><strong>Mesh</strong><br><img src="examples/output/orbit-mesh.png" width="280"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Glass</strong><br><img src="examples/output/orbit-glass.png" width="280"></td>
-    <td align="center"><strong>Sunset</strong><br><img src="examples/output/orbit-sunset.png" width="280"></td>
-    <td align="center"><strong>Ocean</strong><br><img src="examples/output/orbit-ocean.png" width="280"></td>
-  </tr>
-</table>
+### Expand (Default)
+Blurs and expands your screenshot to fill the background, creating the popular "TV news phone video" effect. The colors automatically match your content.
+
+<img src="examples/output/orbit-expand.png" width="400">
+
+```bash
+python main.py screenshot image.png -s expand
+```
+
+---
+
+### Aurora
+Creates smooth vertical color bands inspired by the northern lights. Uses soft gaussian gradients for an elegant, ethereal look.
+
+<img src="examples/output/orbit-aurora.png" width="400">
+
+```bash
+python main.py screenshot image.png -s aurora
+```
+
+---
+
+### Mesh
+Generates a smooth multi-point gradient by blending colors from corners and center. Clean, professional, and modern.
+
+<img src="examples/output/orbit-mesh.png" width="400">
+
+```bash
+python main.py screenshot image.png -s mesh
+```
+
+---
+
+### Glass
+Frosted glass effect with subtle noise texture and soft color overlays. Modern and minimal.
+
+<img src="examples/output/orbit-glass.png" width="400">
+
+```bash
+python main.py screenshot image.png -s glass
+```
+
+---
+
+### Sunset
+Warm vertical gradient transitioning from orange to pink to purple. Great for lifestyle and creative apps.
+
+<img src="examples/output/orbit-sunset.png" width="400">
+
+```bash
+python main.py screenshot image.png -s sunset
+```
+
+---
+
+### Ocean
+Cool gradient with blues and teals flowing diagonally. Perfect for productivity and utility apps.
+
+<img src="examples/output/orbit-ocean.png" width="400">
+
+```bash
+python main.py screenshot image.png -s ocean
+```
 
 ---
 

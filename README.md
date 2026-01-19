@@ -42,13 +42,13 @@ After setup, show me how to create my first mockup.
 
 ## Examples
 
-| Expand (default) | Aurora |
-|:---:|:---:|
-| ![Expand](examples/output/expand.png) | ![Aurora](examples/output/aurora.png) |
+| Expand (default) | Aurora | Mesh |
+|:---:|:---:|:---:|
+| ![Expand](examples/output/orbit-expand.png) | ![Aurora](examples/output/orbit-aurora.png) | ![Mesh](examples/output/orbit-mesh.png) |
 
-| Mesh | Glass |
-|:---:|:---:|
-| ![Mesh](examples/output/mesh.png) | ![Glass](examples/output/glass.png) |
+| Glass | Sunset | Ocean |
+|:---:|:---:|:---:|
+| ![Glass](examples/output/orbit-glass.png) | ![Sunset](examples/output/orbit-sunset.png) | ![Ocean](examples/output/orbit-ocean.png) |
 
 ---
 

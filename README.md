@@ -183,7 +183,12 @@ python main.py batch screenshots/ -s mesh -c sunset
     <td align="center"><strong>Sunlitt (Sunset)</strong><br><img src="examples/output/sunlitt-sunset.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><strong>Orbit (Ocean)</strong><br><img src="examples/output/orbit-ocean-2.png" width="400"></td>
+    <td align="center"><strong>Apple Music (Ocean)</strong><br><img src="examples/output/apple-music-ocean.png" width="400"></td>
+    <td align="center"><strong>KakaoBank (Aurora)</strong><br><img src="examples/output/kakaobank-aurora.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Open (Sunset)</strong><br><img src="examples/output/open-sunset.png" width="400"></td>
+    <td align="center"><strong>Sunlitt (Ocean)</strong><br><img src="examples/output/sunlitt-ocean.png" width="400"></td>
   </tr>
 </table>
 

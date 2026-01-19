@@ -16,7 +16,12 @@ PLATFORM_PRESETS: Dict[str, Dict] = {
     "twitter": {
         "size": (1200, 1500),  # 4:5 aspect ratio - fills mobile feed
         "device_scale": 0.82,  # Larger phone for visibility
-        "description": "Optimized for Twitter/X feed (4:5, larger device)"
+        "description": "Optimized for Twitter/X single image (4:5)"
+    },
+    "twitter4": {
+        "size": (1200, 1200),  # 1:1 aspect ratio - for 4-image grid
+        "device_scale": 0.72,  # Smaller to fit full phone in square
+        "description": "Twitter/X 4-image grid (1:1, full phone visible)"
     },
     "instagram": {
         "size": (1080, 1350),  # 4:5 aspect ratio - Instagram optimal

@@ -206,7 +206,8 @@ python main.py batch path/to/folder/
 
 | Platform | Size | Use Case |
 |----------|------|----------|
-| `twitter` | 1200x1500 (4:5) | Twitter/X feed - **default** |
+| `twitter` | 1200x1500 (4:5) | Twitter/X single image - **default** |
+| `twitter4` | 1200x1200 (1:1) | Twitter/X 4-image grid (full phone visible) |
 | `instagram` | 1080x1350 (4:5) | Instagram feed |
 | `story` | 1080x1920 (9:16) | Stories/Reels |
 | `square` | 1200x1200 (1:1) | Universal |
@@ -214,7 +215,7 @@ python main.py batch path/to/folder/
 
 ```bash
 python main.py screenshot image.png -p instagram
-python main.py screenshot image.png -p story
+python main.py screenshot image.png -p twitter4  # For posting 4 images
 ```
 
 ## Color Options

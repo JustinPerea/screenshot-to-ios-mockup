@@ -324,8 +324,8 @@ def main():
     )
     screenshot_parser.add_argument(
         "-p", "--platform",
-        choices=["twitter", "instagram", "square", "story", "wide"],
-        help="Platform preset for optimal sizing (twitter, instagram, etc.)"
+        choices=["twitter", "twitter4", "instagram", "square", "story", "wide"],
+        help="Platform preset for optimal sizing (twitter, twitter4, instagram, etc.)"
     )
     screenshot_parser.set_defaults(func=cmd_screenshot)
 
@@ -438,8 +438,8 @@ def main():
     )
     batch_parser.add_argument(
         "-p", "--platform",
-        choices=["twitter", "instagram", "square", "story", "wide"],
-        help="Platform preset for optimal sizing (twitter, instagram, etc.)"
+        choices=["twitter", "twitter4", "instagram", "square", "story", "wide"],
+        help="Platform preset for optimal sizing (twitter, twitter4, instagram, etc.)"
     )
     batch_parser.set_defaults(func=cmd_batch)
 

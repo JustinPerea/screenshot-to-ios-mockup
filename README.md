@@ -162,11 +162,11 @@ python main.py batch screenshots/ -s mesh -c sunset
 
 | Apple Music | KakaoBank |
 |:---:|:---:|
-| ![Apple Music](examples/output/apple-music.png) | ![KakaoBank](examples/output/kakaobank.png) |
+| ![Apple Music](examples/output/apple-music-expand.png) | ![KakaoBank](examples/output/kakaobank-expand.png) |
 
 | Open | Sunlitt |
 |:---:|:---:|
-| ![Open](examples/output/open.png) | ![Sunlitt](examples/output/sunlitt.png) |
+| ![Open](examples/output/open-expand.png) | ![Sunlitt](examples/output/sunlitt-expand.png) |
 
 ---
 
